@@ -51,9 +51,7 @@ class ArticlesController extends AbstractController
 
                 $req->execute();
                 header('Location: ' . $_SERVER['HTTP_REFERER']);
-
-
-
+                
             } else {
                 echo "<div class='warning'> Mot de passe non identique. </div>";
                 echo "<script>setTimeout(function(){ document.querySelector('.warning').style.display = 'none'; }, 8000);</script>";

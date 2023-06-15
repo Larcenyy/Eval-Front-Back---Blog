@@ -1,6 +1,6 @@
 <section style="margin-top: 5rem">
     <div class="connect_container">
-        <h5>Suppresion d'un article</h5>
+        <h5>Modification d'un article</h5>
         <div class="connect_form">
             <ul>
                 <li>

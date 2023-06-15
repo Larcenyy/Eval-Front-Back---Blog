@@ -17,7 +17,7 @@ $router->map('GET', '/logout', 'LoginController#logout', 'logout');
 $router->map('GET', '/admin', 'AdminController#index', 'admin');
 
 $router->map('GET', '/createArticle', 'AdminController#pageCreateArticle', 'createArticle');
-$router->map('GET', '/deleteArticle', 'AdminController#pageDeleteArticle', 'deleteArticle');
+    $router->map('GET', '/deleteArticle', 'AdminController#pageDeleteArticle', 'deleteArticle');
 
 $router->map('GET', '/articles/delete/[i:id]', 'AdminController#deleteArticle', 'article_delete');
 $router->map('GET', '/comment/delete/[i:id]', 'AdminController#deleteComment', 'comment_delete');
